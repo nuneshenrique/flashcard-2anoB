@@ -1,20 +1,18 @@
-
-body{
-    font-family: "Fascinar Inline";
+body {
+    font-family: 'Fascinar Inline';
 }
 
-footer{
-background-color: black;
-color: white;
-bottom: 0;
-position: fixed;
-width: 100%;
+footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
-    footer p{
-        text-align: center;
-        font-size: 0.6rem;
-        height: 2rem;
-        margin-top: 0.5rem;
-    }
-    
+footer p {
+    text-align: center;
+    font-size: 0.6rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+}
