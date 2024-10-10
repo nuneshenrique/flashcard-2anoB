@@ -76,7 +76,7 @@ margin-top: 4rem;
     color: var(--card-back-color);
     font-weight: 700;
  }
- cartao:hover .cartao__conteudo{
+ .cartao:hover .cartao__conteudo{
     transform: rotate(180deg);
 
  }
