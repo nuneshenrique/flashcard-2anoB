@@ -23,8 +23,17 @@ footer p {
 .cartao{
     margin: 1rem 1rem;
     background-color: aqua;
+    height: 20rem;;
+    flex-grow: 1;
+    flex-basis: calc(33% - 0.6rem);
+}
+
+.cartao{
+    background-color: var(--card-front-color);
+    text-align: center;
     height: 100%;
     transform-style: preserve-3d;
     transition:transform 300ms ease-in-out;
 
 }
+
