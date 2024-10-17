@@ -50,6 +50,7 @@ body {
     backface-visibility: hidden;
 }
 .cartao__conteudo p{
+    text-align: center;
     margin-top: 1rem;
     padding: 2rem;
     margin-top: 4rem;
