@@ -5,6 +5,7 @@ body{
 
 #container{
     display: flex;
+    background-color: blanchedalmond;
 }
 
 .cartao{
