@@ -53,7 +53,7 @@ body{
 .cartao__conteudo__resposta p{
     color: var(--card-back-color);
     font-weight: 700; 
-    background-color: blueviolet;
+    background-color: rgb(226, 43, 43);
 }
 .cartao:hover .cartao__conteudo{
     
