@@ -18,29 +18,25 @@ header{
     padding: 1px;/*espaço interno do header*/
 }
 h1{
-    font-size: 2rem;/*tamanho da letra,
-                    medida rem do :root*/
-    color:var(--bg-color); /*cor da letra*/
-    font-weight: 700; /*weight define o negrito*/
+    font-size: 2rem;/
+    color:var(--bg-color); 
+    font-weight: 700;
 }
 nav{
-    display: flex; /*área flexível navegável*/
-    justify-content: center; /*justificar conteúdo
-                            ao centro*/
-    font-weight: 400; /*negrito*/
+    display: flex; 
+    justify-content: center;
+    font-weight: 400;
 }
-nav a{ /*link estático*/
-    text-decoration: none; /*tirar o sublinhado*/
+nav a{ 
+    text-decoration: none; 
     color:var(--bg-color);
-    margin:0 2rem 1rem 0rem; /*espaço externo cima,
-                            esquerda, baixo, direita*/
-    font-size: 1.2rem;  /*tamanho da letra
-                        equivalente a 18px*/
+    margin:0 2rem 1rem 0rem; 
+    font-size: 1.2rem;  
 }
-nav a:hover{ /*link interativo ao passar o mouse*/
-    text-decoration: underline; /*insere o sublinhado*/
-    transform: scale(0.90); /* diminui o tamanho do texto em 90%*/
-    transition: transform 0.1s; /*tempo da transformação*/
+nav a:hover{ 
+    text-decoration: underline; 
+    transform: scale(0.90); 
+    transition: transform 0.1s; 
 }
 
 .grafico {
