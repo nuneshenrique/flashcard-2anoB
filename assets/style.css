@@ -17,7 +17,7 @@ body{
     flex-basis: calc(33% - 6rem);
 }
 .cartao__conteudo{
-    background-color: var(--card-front-color);
+    background-color: var(--c ard-front-color);
     text-align: center; entro
     height: 100%; 
     transform-style: preserve-3d; 
@@ -64,7 +64,23 @@ body{
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta{
     backface-visibility: hidden;LEMENT 
-    position: absolute;
+    position: absolute;body{
+        background: url(img/bg-desktop.webp);
+        font-family:"Bai Jamjuree" ;
+        background-color: rgba(11, 227, 231, 0.474)
+       
+    }
+    
+    #container{
+        display: flex;
+        
+    …    
+    }
+    
+    .cartao__conteudo__pergunta,
+    .cartao__conteudo__resposta{
+        backface-visibility: hidden;LEMENT 
+        position: absolute
     height: 100%;
     width: 100%;
 }
