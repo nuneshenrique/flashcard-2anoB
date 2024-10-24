@@ -1,7 +1,7 @@
 :root{
-    --text-color:hsla(0, 0%, 0%, 0.452);
-    --card-front-color: #0408f8;
-    --card-back-color: #f400cb;
+    --text-color:#DBE4EF;
+    --card-front-color: #144480;
+    --card-back-color: #00F4BF;
 }
 
 body{
@@ -15,15 +15,7 @@ body{
 
 .cartao{
     margin: 1rem 1rem; /*espaço externo 1rem p/ todos os lados*/
-    height:.5rem;  /*espaço interno de 0.5 raiz*/
-    position: absolute; /*posiciona o titulo em relação ao "pai"*/
-    margin: 0.6rem;  /*margem externa de 0.6 raiz*/
-    border-radius: 0.6rem;  /*borda arredondada de 0.6 raiz*/
-    font-size: 1vw; /*tamanho letra do titulo, 1% largura raiz*/
-    backface-visibility: hidden; 
-    /*visibilidade do verso do elemento: oculto*/
-}
-.cartao__conteu 20rem; /*altura elemento 20rem*/
+    height: 20rem; /*altura elemento 20rem*/
     flex-grow: 1; /*cresce os elementos de maneira uniforme*/ 
     flex-basis: calc(33% - 6rem); /*divide o espaço p/ 3 elementos*/
 }
@@ -88,7 +80,7 @@ body{
 
 footer {
     background-color: black;
-    color: rgb(25, 47, 167);
+    color: white;
     bottom:0;
     position:fixed;
     width:100%;
