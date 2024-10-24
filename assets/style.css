@@ -1,5 +1,5 @@
 :root{
-    --text-color:hsla(0, 0%, 0%, 0);
+    --text-color:hsla(0, 0%, 0%, 0.452);
     --card-front-color: #0408f8;
     --card-back-color: #f400cb;
 }
